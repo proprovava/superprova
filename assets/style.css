@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-body {	color:#fff;	font:300 15px/15px 'Josefin Sans', 'Roboto',Arial,Helvetica;background:url(../images/bg.jpg) right no-repeat fixed #fff;background-size: cover; -moz-osx-font-smoothing: antialiased; -webkit-font-smoothing:antialiased;}
+body {	color:#fff;	font: 15px/15px 'Josefin Sans', 'Roboto',Arial,Helvetica;background:url(../images/bg.jpg) right no-repeat fixed #fff;background-size: cover; -moz-osx-font-smoothing: antialiased; -webkit-font-smoothing:antialiased;}
 
 a{color:#00a9c6; text-decoration:none;}
 a:hover{color:#666;}
@@ -48,7 +48,7 @@ figure img {
   margin: 0px auto;
   text-align: center;
   color: #fff;}
-.banner .caption-info h1{font:normal 4.5em 'Josefin Sans',Arial,Helvetica;}
+.banner .caption-info h1{font:600 4.5em 'Josefin Sans',Arial,Helvetica;}
 .banner .caption-info p{font:600 1.7em 'Josefin Sans',Arial,Helvetica;}
 .banner a.explore{color: #fff;}
 .explore{margin: 0 1em;}
