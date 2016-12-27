@@ -38,11 +38,14 @@ figure img {
 
 
 /*banner*/
-.banner{position: relative;}
-.banner .caption{position: absolute;top: 0;left:0; right: 0; bottom: 0;background:rgba(0,0,0,0.9); }
-.banner .caption-wrapper{display: table;height: 100%;width: 100%;}
-.banner .caption-info{display: table-cell;vertical-align: middle;text-align: center;color: #fff;}
-.banner .caption-info h1{font:normal 4.5em Josefin Sans,Arial,Helvetica;text-transform:capitalize;}
+.banner{ padding: 30px; }
+/*.banner .caption{position: absolute;top: 0;left:0; right: 0; bottom: 0;background:rgba(0,0,0,0.95); }*/
+.banner .caption-wrapper{height: 100%;width: 100%;}
+.banner .caption-info{padding: 20px;
+  margin: 0px auto;
+  text-align: center;
+  color: #fff;}
+.banner .caption-info h1{font:normal 4.5em Josefin Sans,Arial,Helvetica;}
 .banner .caption-info p{font:600 1.7em Josefin Sans,Arial,Helvetica;}
 .banner a.explore{color: #fff;}
 .explore{margin: 0 1em;}
@@ -106,7 +109,7 @@ figure img {
 @media (max-width: 767px) {
 	body{font:300 12px/12px Roboto,Arial,Helvetica;}
 
-	.banner .caption,.carousel-caption,.carousel-control,.carousel-indicators{display: none;}
+	.carousel-caption,.carousel-control,.carousel-indicators{display: none;}
 
 	h2.text-center{text-align: left;font-size: 1.7em;}
 	h4 {font: 300 1.2em Roboto,Arial,Helvetica;}
